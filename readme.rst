@@ -3,7 +3,7 @@ CVS model
 
 This is a model of whole-body circulation, showing the flow of blood throughout the major organs: heart, lung, renal, gut, brain, limbs. The bond-graph model is illustrated in the figure below, with the CellML model added for simulation purposes.
 
-.. figure::  Renal_circ_v1.jpg
+.. figure::  Renal_circ_v3.jpg
    :width: 50%
    :align: center
    :alt: Schematic and bond graph of the model
