@@ -1,0 +1,68 @@
+{
+    "input": [
+      {
+        "defaultValue": 5,
+        "id": "q_LV_us",
+        "maximumValue": 9,
+        "minimumValue": 1,
+        "name": "1,000 x q_LV_us (L)"
+      },
+      {
+        "defaultValue": 10,
+        "id": "q_RV_us",
+        "maximumValue": 50,
+        "minimumValue": 1,
+        "name": "1,000 x q_RV_us (L)"
+      }
+    ],
+    "output": {
+      "data": [
+        {
+          "id": "t",
+          "name": "main/t"
+        },
+        {
+          "id": "u_LV",
+          "name": "main/u_LV"
+        },
+        {
+          "id": "q_LV",
+          "name": "main/q_LV"
+        },
+        {
+          "id": "v_PV",
+          "name": "main/v_PV"
+        }
+      ],
+      "plots": [
+        {
+          "xAxisTitle": "Time (ms)",
+          "xValue": "t",
+          "yAxisTitle": "u_LV (kPa)",
+          "yValue": "u_LV"
+        },
+        {
+          "xAxisTitle": "Time (ms)",
+          "xValue": "t",
+          "yAxisTitle": "q_LV (L)",
+          "yValue": "q_LV"
+        },
+        {
+          "xAxisTitle": "Time (ms)",
+          "xValue": "t",
+          "yAxisTitle": "v_PV (L/s)",
+          "yValue": "v_PV"
+        }
+      ]
+    },
+    "parameters": [
+      {
+        "name": "main/q_LV_us",
+        "value": "0.001*q_LV_us"
+      },
+      {
+        "name": "mqin/q_RV_us",
+        "value": "0.001*q_RV_us"
+      }
+    ]
+  }
