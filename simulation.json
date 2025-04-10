@@ -1,18 +1,25 @@
 {
     "input": [
       {
-        "defaultValue": 5,
-        "id": "q_LV_us",
-        "maximumValue": 9,
-        "minimumValue": 1,
-        "name": "1,000 x q_LV_us (L)"
+        "defaultValue": 10,
+        "id": "k_heart_W",
+        "maximumValue": 50,
+        "minimumValue": 0,
+        "name": "k_heart_W (l/s/kPa)"
       },
       {
-        "defaultValue": 10,
-        "id": "q_RV_us",
-        "maximumValue": 50,
-        "minimumValue": 1,
-        "name": "1,000 x q_RV_us (L)"
+        "defaultValue": 1,
+        "id": "E_vc",
+        "maximumValue": 20,
+        "minimumValue": 0,
+        "name": "Venous elastance (J)"
+      },
+      {
+        "defaultValue": 0,
+        "id": "kK_pt_Na",
+        "maximumValue": 10,
+        "minimumValue": 0,
+        "name": "k_Na proximal tubule (/s)"
       }
     ],
     "output": {
@@ -22,47 +29,61 @@
           "name": "main/t"
         },
         {
-          "id": "u_LV",
-          "name": "main/u_LV"
+          "id": "u_ac_W",
+          "name": "main/u_ac_W"
         },
         {
-          "id": "q_LV",
-          "name": "main/q_LV"
+          "id": "c_vc_Na",
+          "name": "main/c_vc_Na"
         },
         {
-          "id": "v_PV",
-          "name": "main/v_PV"
+          "id": "q_ac_W",
+          "name": "main/q_ac_W"
+        },
+        {
+          "id": "q_vc_W",
+          "name": "main/q_vc_W"
         }
       ],
       "plots": [
         {
-          "xAxisTitle": "Time (ms)",
+          "xAxisTitle": "Time (s)",
           "xValue": "t",
-          "yAxisTitle": "u_LV (kPa)",
-          "yValue": "u_LV"
+          "yAxisTitle": "Blood pressure (kPa)",
+          "yValue": "u_ac_W"
         },
         {
-          "xAxisTitle": "Time (ms)",
+          "xAxisTitle": "Time (s)",
           "xValue": "t",
-          "yAxisTitle": "q_LV (L)",
-          "yValue": "q_LV"
+          "yAxisTitle": "Blood Na+ concentration (mM)",
+          "yValue": "c_vc_Na"
         },
         {
-          "xAxisTitle": "Time (ms)",
+          "xAxisTitle": "Time (s)",
           "xValue": "t",
-          "yAxisTitle": "v_PV (L/s)",
-          "yValue": "v_PV"
+          "yAxisTitle": "Arterial blood volume (l)",
+          "yValue": "q_ac_W"
+        },
+        {
+          "xAxisTitle": "Time (s)",
+          "xValue": "t",
+          "yAxisTitle": "Venous blood volume (l)",
+          "yValue": "q_vc_W"
         }
       ]
     },
     "parameters": [
       {
-        "name": "main/q_LV_us",
-        "value": "0.001*q_LV_us"
+        "name": "main/k_heart_W",
+        "value": "k_heart_W"
       },
       {
-        "name": "mqin/q_RV_us",
-        "value": "0.001*q_RV_us"
+        "name": "main/E_vc",
+        "value": "E_vc"
+      },
+      {
+        "name": "main/kK_pt_Na",
+        "value": "kK_pt_Na"
       }
     ]
   }
