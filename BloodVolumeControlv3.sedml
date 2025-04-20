@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <sedML level="1" version="3" xmlns="http://sed-ml.org/sed-ml/level1/version3" xmlns:cellml="http://www.cellml.org/cellml/1.1#">
     <listOfModels>
-        <model id="model" language="urn:sedml:language:cellml.1_1" source="BG_CVS.cellml"/>
+        <model id="model" language="urn:sedml:language:cellml.1_1" source="BloodVolumeControlv3.cellml"/>
     </listOfModels>
     <listOfSimulations>
-        <uniformTimeCourse id="simulation1" initialTime="0" numberOfPoints="1300" outputEndTime="130" outputStartTime="0">
+        <uniformTimeCourse id="simulation1" initialTime="0" numberOfPoints="1000" outputEndTime="10" outputStartTime="0">
             <algorithm kisaoID="KISAO:0000019">
                 <listOfAlgorithmParameters>
                     <algorithmParameter kisaoID="KISAO:0000211" value="1e-07"/>
@@ -49,7 +49,7 @@
                 <ci> yVariable1_1 </ci>
             </math>
             <listOfVariables>
-                <variable id="yVariable1_1" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='u_AA']" taskReference="repeatedTask"/>
+                <variable id="yVariable1_1" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='q_ac_W']" taskReference="repeatedTask"/>
             </listOfVariables>
         </dataGenerator>
         <dataGenerator id="xDataGenerator1_2">
@@ -65,39 +65,7 @@
                 <ci> yVariable1_2 </ci>
             </math>
             <listOfVariables>
-                <variable id="yVariable1_2" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='u_brain']" taskReference="repeatedTask"/>
-            </listOfVariables>
-        </dataGenerator>
-        <dataGenerator id="xDataGenerator1_3">
-            <math xmlns="http://www.w3.org/1998/Math/MathML">
-                <ci> xVariable1_3 </ci>
-            </math>
-            <listOfVariables>
-                <variable id="xVariable1_3" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='t']" taskReference="repeatedTask"/>
-            </listOfVariables>
-        </dataGenerator>
-        <dataGenerator id="yDataGenerator1_3">
-            <math xmlns="http://www.w3.org/1998/Math/MathML">
-                <ci> yVariable1_3 </ci>
-            </math>
-            <listOfVariables>
-                <variable id="yVariable1_3" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='u_LA']" taskReference="repeatedTask"/>
-            </listOfVariables>
-        </dataGenerator>
-        <dataGenerator id="xDataGenerator1_4">
-            <math xmlns="http://www.w3.org/1998/Math/MathML">
-                <ci> xVariable1_4 </ci>
-            </math>
-            <listOfVariables>
-                <variable id="xVariable1_4" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='t']" taskReference="repeatedTask"/>
-            </listOfVariables>
-        </dataGenerator>
-        <dataGenerator id="yDataGenerator1_4">
-            <math xmlns="http://www.w3.org/1998/Math/MathML">
-                <ci> yVariable1_4 </ci>
-            </math>
-            <listOfVariables>
-                <variable id="yVariable1_4" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='u_LV']" taskReference="repeatedTask"/>
+                <variable id="yVariable1_2" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='q_vc_W']" taskReference="repeatedTask"/>
             </listOfVariables>
         </dataGenerator>
         <dataGenerator id="xDataGenerator2_1">
@@ -113,7 +81,7 @@
                 <ci> yVariable2_1 </ci>
             </math>
             <listOfVariables>
-                <variable id="yVariable2_1" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='q_LV']" taskReference="repeatedTask"/>
+                <variable id="yVariable2_1" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='u_ac_W']" taskReference="repeatedTask"/>
             </listOfVariables>
         </dataGenerator>
         <dataGenerator id="xDataGenerator2_2">
@@ -129,7 +97,7 @@
                 <ci> yVariable2_2 </ci>
             </math>
             <listOfVariables>
-                <variable id="yVariable2_2" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='q_RV']" taskReference="repeatedTask"/>
+                <variable id="yVariable2_2" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='u_vc_W']" taskReference="repeatedTask"/>
             </listOfVariables>
         </dataGenerator>
         <dataGenerator id="xDataGenerator3_1">
@@ -145,7 +113,7 @@
                 <ci> yVariable3_1 </ci>
             </math>
             <listOfVariables>
-                <variable id="yVariable3_1" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='v_AV']" taskReference="repeatedTask"/>
+                <variable id="yVariable3_1" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='v_gi_Na']" taskReference="repeatedTask"/>
             </listOfVariables>
         </dataGenerator>
         <dataGenerator id="xDataGenerator3_2">
@@ -161,7 +129,7 @@
                 <ci> yVariable3_2 </ci>
             </math>
             <listOfVariables>
-                <variable id="yVariable3_2" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='v_MV']" taskReference="repeatedTask"/>
+                <variable id="yVariable3_2" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='v_giEpi_NKE']" taskReference="repeatedTask"/>
             </listOfVariables>
         </dataGenerator>
         <dataGenerator id="xDataGenerator3_3">
@@ -177,7 +145,7 @@
                 <ci> yVariable3_3 </ci>
             </math>
             <listOfVariables>
-                <variable id="yVariable3_3" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='v_TV']" taskReference="repeatedTask"/>
+                <variable id="yVariable3_3" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='v_pt_Na']" taskReference="repeatedTask"/>
             </listOfVariables>
         </dataGenerator>
         <dataGenerator id="xDataGenerator3_4">
@@ -193,7 +161,7 @@
                 <ci> yVariable3_4 </ci>
             </math>
             <listOfVariables>
-                <variable id="yVariable3_4" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='v_PV']" taskReference="repeatedTask"/>
+                <variable id="yVariable3_4" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='v_ptEpi_NKE']" taskReference="repeatedTask"/>
             </listOfVariables>
         </dataGenerator>
         <dataGenerator id="xDataGenerator4_1">
@@ -209,7 +177,7 @@
                 <ci> yVariable4_1 </ci>
             </math>
             <listOfVariables>
-                <variable id="yVariable4_1" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='mt']" taskReference="repeatedTask"/>
+                <variable id="yVariable4_1" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='C_vc_Na']" taskReference="repeatedTask"/>
             </listOfVariables>
         </dataGenerator>
         <dataGenerator id="xDataGenerator4_2">
@@ -225,7 +193,55 @@
                 <ci> yVariable4_2 </ci>
             </math>
             <listOfVariables>
-                <variable id="yVariable4_2" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='mta']" taskReference="repeatedTask"/>
+                <variable id="yVariable4_2" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='C_gi_Na']" taskReference="repeatedTask"/>
+            </listOfVariables>
+        </dataGenerator>
+        <dataGenerator id="xDataGenerator4_3">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <ci> xVariable4_3 </ci>
+            </math>
+            <listOfVariables>
+                <variable id="xVariable4_3" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='t']" taskReference="repeatedTask"/>
+            </listOfVariables>
+        </dataGenerator>
+        <dataGenerator id="yDataGenerator4_3">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <ci> yVariable4_3 </ci>
+            </math>
+            <listOfVariables>
+                <variable id="yVariable4_3" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='C_giEpi_Na']" taskReference="repeatedTask"/>
+            </listOfVariables>
+        </dataGenerator>
+        <dataGenerator id="xDataGenerator4_4">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <ci> xVariable4_4 </ci>
+            </math>
+            <listOfVariables>
+                <variable id="xVariable4_4" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='t']" taskReference="repeatedTask"/>
+            </listOfVariables>
+        </dataGenerator>
+        <dataGenerator id="yDataGenerator4_4">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <ci> yVariable4_4 </ci>
+            </math>
+            <listOfVariables>
+                <variable id="yVariable4_4" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='C_pt_Na']" taskReference="repeatedTask"/>
+            </listOfVariables>
+        </dataGenerator>
+        <dataGenerator id="xDataGenerator4_5">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <ci> xVariable4_5 </ci>
+            </math>
+            <listOfVariables>
+                <variable id="xVariable4_5" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='t']" taskReference="repeatedTask"/>
+            </listOfVariables>
+        </dataGenerator>
+        <dataGenerator id="yDataGenerator4_5">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <ci> yVariable4_5 </ci>
+            </math>
+            <listOfVariables>
+                <variable id="yVariable4_5" target="/cellml:model/cellml:component[@name='main']/cellml:variable[@name='C_ptEpi_Na']" taskReference="repeatedTask"/>
             </listOfVariables>
         </dataGenerator>
     </listOfDataGenerators>
@@ -284,7 +300,7 @@
                     <annotation>
                         <properties xmlns="http://www.opencor.ws/">
                             <selected>true</selected>
-                            <title>u_AA</title>
+                            <title>q_ac_W</title>
                             <line>
                                 <style>solid</style>
                                 <width>2</width>
@@ -303,8 +319,8 @@
                 <curve id="curve1_2" logX="false" logY="false" xDataReference="xDataGenerator1_2" yDataReference="yDataGenerator1_2">
                     <annotation>
                         <properties xmlns="http://www.opencor.ws/">
-                            <selected>true</selected>
-                            <title>u_brain</title>
+                            <selected>false</selected>
+                            <title>q_vc_W</title>
                             <line>
                                 <style>solid</style>
                                 <width>2</width>
@@ -314,46 +330,6 @@
                                 <style>none</style>
                                 <size>8</size>
                                 <color>#d95319</color>
-                                <filled>true</filled>
-                                <fillColor>#ffffff</fillColor>
-                            </symbol>
-                        </properties>
-                    </annotation>
-                </curve>
-                <curve id="curve1_3" logX="false" logY="false" xDataReference="xDataGenerator1_3" yDataReference="yDataGenerator1_3">
-                    <annotation>
-                        <properties xmlns="http://www.opencor.ws/">
-                            <selected>true</selected>
-                            <title>u_LA</title>
-                            <line>
-                                <style>solid</style>
-                                <width>2</width>
-                                <color>#edb120</color>
-                            </line>
-                            <symbol>
-                                <style>none</style>
-                                <size>8</size>
-                                <color>#edb120</color>
-                                <filled>true</filled>
-                                <fillColor>#ffffff</fillColor>
-                            </symbol>
-                        </properties>
-                    </annotation>
-                </curve>
-                <curve id="curve1_4" logX="false" logY="false" xDataReference="xDataGenerator1_4" yDataReference="yDataGenerator1_4">
-                    <annotation>
-                        <properties xmlns="http://www.opencor.ws/">
-                            <selected>true</selected>
-                            <title>u_LV</title>
-                            <line>
-                                <style>solid</style>
-                                <width>2</width>
-                                <color>#7e2f8e</color>
-                            </line>
-                            <symbol>
-                                <style>none</style>
-                                <size>8</size>
-                                <color>#7e2f8e</color>
                                 <filled>true</filled>
                                 <fillColor>#ffffff</fillColor>
                             </symbol>
@@ -416,7 +392,7 @@
                     <annotation>
                         <properties xmlns="http://www.opencor.ws/">
                             <selected>true</selected>
-                            <title>q_LV</title>
+                            <title>u_ac_W</title>
                             <line>
                                 <style>solid</style>
                                 <width>2</width>
@@ -436,7 +412,7 @@
                     <annotation>
                         <properties xmlns="http://www.opencor.ws/">
                             <selected>true</selected>
-                            <title>q_RV</title>
+                            <title>u_vc_W</title>
                             <line>
                                 <style>solid</style>
                                 <width>2</width>
@@ -508,7 +484,7 @@
                     <annotation>
                         <properties xmlns="http://www.opencor.ws/">
                             <selected>true</selected>
-                            <title>v_AV</title>
+                            <title>v_gi_Na</title>
                             <line>
                                 <style>solid</style>
                                 <width>2</width>
@@ -528,7 +504,7 @@
                     <annotation>
                         <properties xmlns="http://www.opencor.ws/">
                             <selected>true</selected>
-                            <title>v_MV</title>
+                            <title>v_giEpi_NKE</title>
                             <line>
                                 <style>solid</style>
                                 <width>2</width>
@@ -548,7 +524,7 @@
                     <annotation>
                         <properties xmlns="http://www.opencor.ws/">
                             <selected>true</selected>
-                            <title>v_TV</title>
+                            <title>v_pt_Na</title>
                             <line>
                                 <style>solid</style>
                                 <width>2</width>
@@ -568,7 +544,7 @@
                     <annotation>
                         <properties xmlns="http://www.opencor.ws/">
                             <selected>true</selected>
-                            <title>v_PV</title>
+                            <title>v_ptEpi_NKE</title>
                             <line>
                                 <style>solid</style>
                                 <width>2</width>
@@ -639,8 +615,8 @@
                 <curve id="curve4_1" logX="false" logY="false" xDataReference="xDataGenerator4_1" yDataReference="yDataGenerator4_1">
                     <annotation>
                         <properties xmlns="http://www.opencor.ws/">
-                            <selected>true</selected>
-                            <title>mt</title>
+                            <selected>false</selected>
+                            <title>C_vc_Na</title>
                             <line>
                                 <style>solid</style>
                                 <width>2</width>
@@ -660,7 +636,7 @@
                     <annotation>
                         <properties xmlns="http://www.opencor.ws/">
                             <selected>true</selected>
-                            <title>mta</title>
+                            <title>C_gi_Na</title>
                             <line>
                                 <style>solid</style>
                                 <width>2</width>
@@ -670,6 +646,66 @@
                                 <style>none</style>
                                 <size>8</size>
                                 <color>#d95319</color>
+                                <filled>true</filled>
+                                <fillColor>#ffffff</fillColor>
+                            </symbol>
+                        </properties>
+                    </annotation>
+                </curve>
+                <curve id="curve4_3" logX="false" logY="false" xDataReference="xDataGenerator4_3" yDataReference="yDataGenerator4_3">
+                    <annotation>
+                        <properties xmlns="http://www.opencor.ws/">
+                            <selected>true</selected>
+                            <title>C_giEpi_Na</title>
+                            <line>
+                                <style>solid</style>
+                                <width>2</width>
+                                <color>#edb120</color>
+                            </line>
+                            <symbol>
+                                <style>none</style>
+                                <size>8</size>
+                                <color>#edb120</color>
+                                <filled>true</filled>
+                                <fillColor>#ffffff</fillColor>
+                            </symbol>
+                        </properties>
+                    </annotation>
+                </curve>
+                <curve id="curve4_4" logX="false" logY="false" xDataReference="xDataGenerator4_4" yDataReference="yDataGenerator4_4">
+                    <annotation>
+                        <properties xmlns="http://www.opencor.ws/">
+                            <selected>true</selected>
+                            <title>C_pt_Na</title>
+                            <line>
+                                <style>solid</style>
+                                <width>2</width>
+                                <color>#7e2f8e</color>
+                            </line>
+                            <symbol>
+                                <style>none</style>
+                                <size>8</size>
+                                <color>#7e2f8e</color>
+                                <filled>true</filled>
+                                <fillColor>#ffffff</fillColor>
+                            </symbol>
+                        </properties>
+                    </annotation>
+                </curve>
+                <curve id="curve4_5" logX="false" logY="false" xDataReference="xDataGenerator4_5" yDataReference="yDataGenerator4_5">
+                    <annotation>
+                        <properties xmlns="http://www.opencor.ws/">
+                            <selected>true</selected>
+                            <title>C_ptEpi_Na</title>
+                            <line>
+                                <style>solid</style>
+                                <width>2</width>
+                                <color>#77ac30</color>
+                            </line>
+                            <symbol>
+                                <style>none</style>
+                                <size>8</size>
+                                <color>#77ac30</color>
                                 <filled>true</filled>
                                 <fillColor>#ffffff</fillColor>
                             </symbol>
