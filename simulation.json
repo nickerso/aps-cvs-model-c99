@@ -1,25 +1,25 @@
 {
     "input": [
       {
-        "defaultValue": 10,
-        "id": "k_heart_W",
-        "maximumValue": 50,
+        "defaultValue": 1,
+        "id": "v_lv_W",
+        "maximumValue": 10,
         "minimumValue": 0,
-        "name": "k_heart_W (l/s/kPa)"
+        "name": "Cardiac output (L/s)"
       },
       {
-        "defaultValue": 1,
+        "defaultValue": 60,
         "id": "E_vc",
-        "maximumValue": 20,
+        "maximumValue": 100,
         "minimumValue": 0,
         "name": "Venous elastance (J)"
       },
       {
-        "defaultValue": 0,
+        "defaultValue": 1,
         "id": "kK_pt_Na",
         "maximumValue": 10,
         "minimumValue": 0,
-        "name": "k_Na proximal tubule (/s)"
+        "name": "Na flux rate proximal tubule (/s)"
       }
     ],
     "output": {
@@ -74,8 +74,8 @@
     },
     "parameters": [
       {
-        "name": "main/k_heart_W",
-        "value": "k_heart_W"
+        "name": "main/v_lv_W",
+        "value": "v_lv_W"
       },
       {
         "name": "main/E_vc",
