@@ -1,20 +1,12 @@
-CVS model
-======================================================================================
+Blood volume control model
+==========================
 
-This is a model of whole-body circulation, showing the flow of blood throughout the major organs: heart, lung, renal, gut, brain, limbs. The bond-graph model is illustrated in the figure below, with the CellML model added for simulation purposes.
+A simple model of the control of blood volume by sodium. Shown below, the three compartments (GI tract, kidney, and circula􀆟on system) are shown with grey backgrounds. The blue-background rectangular boxes indicate the 6-layer FTUs (Functional Tissue Units) that encompass exchange of substances (in this case just water and sodium) between the epithelial compartments and blood. The 0:nodes and 1:nodes provide the link to protein mechanisms in subcellular compartments. The variables shown in red are specified boundary condi􀆟ons.
 
-.. figure::  Renal_circ_v3.jpg
+.. figure::  BloodVolumeControl.jpg
    :width: 50%
    :align: center
    :alt: Schematic and bond graph of the model
 
    The figure depicts the components of the renal circulation system.
-
-After clicking the CellML file, the **Views Available** menu to the right provides various options to explore this model here in the Physiome Model Repository.
-Of particular interest is the *Launch with OpenCOR* menu item, which will load the simulation experiment shown below directly into the `OpenCOR`_ desktop application.
-
-
-.. _CellML: https://www.cellml.org/
-.. _OpenCOR: https://opencor.ws/
-.. _SED-ML: https://sed-ml.org
 
