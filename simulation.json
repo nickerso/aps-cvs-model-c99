@@ -1,9 +1,9 @@
 {
     "input": [
       {
-        "defaultValue": 1,
+        "defaultValue": 10,
         "id": "v_lv_W",
-        "maximumValue": 10,
+        "maximumValue": 150,
         "minimumValue": 0,
         "name": "Cardiac output (L/s)"
       },
@@ -61,13 +61,13 @@
         {
           "xAxisTitle": "Time (s)",
           "xValue": "t",
-          "yAxisTitle": "Arterial blood volume (l)",
+          "yAxisTitle": "Arterial blood volume (L)",
           "yValue": "q_ac_W"
         },
         {
           "xAxisTitle": "Time (s)",
           "xValue": "t",
-          "yAxisTitle": "Venous blood volume (l)",
+          "yAxisTitle": "Venous blood volume (L)",
           "yValue": "q_vc_W"
         }
       ]
@@ -75,7 +75,7 @@
     "parameters": [
       {
         "name": "main/v_lv_W",
-        "value": "v_lv_W"
+        "value": "0.1*v_lv_W"
       },
       {
         "name": "main/E_vc",
