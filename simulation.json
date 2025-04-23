@@ -17,7 +17,7 @@
       {
         "defaultValue": 1,
         "id": "kK_pt_Na",
-        "maximumValue": 10,
+        "maximumValue": 30,
         "minimumValue": 0,
         "name": "Na flux rate proximal tubule (/s)"
       }
