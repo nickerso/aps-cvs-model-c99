@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<model name="my_model" xmlns="http://www.cellml.org/cellml/1.1#" xmlns:cellml="http://www.cellml.org/cellml/1.1#">
+<model name="my_model" xmlns="http://www.cellml.org/cellml/1.1#" xmlns:cellml="http://www.cellml.org/cellml/1.1#" xmlns:cmeta="http://www.cellml.org/metadata/1.0#">
     <!-- Simple model of blood volume-->
     <units name="dim">
         <unit units="dimensionless"/>
@@ -62,7 +62,7 @@
         <variable name="t" units="second"/>
         <variable initial_value="2.5e3" name="RT" units="J_per_mol"/>
         <variable initial_value="0.965e5" name="F" units="C_per_mol"/>
-        <variable initial_value="1" name="q_ac_W" units="litre"/>
+        <variable cmeta:id="q-ac-W" initial_value="1" name="q_ac_W" units="litre"/>
         <variable initial_value="2" name="q_vc_W" units="litre"/>
         <variable initial_value="1" name="q_gi_W" units="litre"/>
         <variable initial_value="0.1" name="q_pt_W" units="litre"/>
