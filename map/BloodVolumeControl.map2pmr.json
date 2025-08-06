@@ -1,0 +1,41 @@
+[
+    {
+        "sckan_term": "cvs:functional.whole-body",
+        "label": "MSM whole-body scale",
+        "cellmls": [
+            {
+                "exposure": "https://models.physiomeproject.org/e/d01"
+            }
+        ]
+    },
+    {
+        "sckan_term": "cvs:functional.tissue",
+        "label": "MSM tissue scale",
+        "cellmls": [
+            {
+                "exposure": "https://models.physiomeproject.org/e/d03"
+            }
+        ]
+    },
+    {
+        "sckan_term": "cvs:functional.cell",
+        "label": "MSM cellular scale",
+        "cellmls": [
+            {
+                "exposure": "https://models.physiomeproject.org/e/d06"
+            }
+        ]
+    },
+    {
+        "sckan_term": "cvs:functional.control",
+        "label": "MSM control models",
+        "cellmls": [
+            {
+                "exposure": "https://models.physiomeproject.org/e/d09"
+            },
+            {
+                "exposure": "https://models.physiomeproject.org/e/d0d"
+            }
+        ]
+    }
+]

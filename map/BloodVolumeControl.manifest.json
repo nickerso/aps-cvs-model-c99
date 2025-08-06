@@ -1,0 +1,13 @@
+{
+    "id": "FC:blood-volume-control",
+    "models": "FC:blood-volume-control",
+    "kind": "functional control",
+    "properties": "BloodVolumeControl.properties.json",
+    "sources": [
+        {
+            "id": "bvc",
+            "href": "BloodVolumeControl.svg",
+            "kind": "base"
+        }
+    ]
+}
