@@ -1,0 +1,36 @@
+{
+    "title": "Blood volume control FC map",
+    "description": "Files for the SPARC blood volume control FC flatmap.",
+    "keywords": [
+        "SPARC",
+        "flatmap",
+        "blood volume control",
+        "functional connectivity",
+        "water",
+        "sodium",
+        "CellML"
+    ],
+    "contributors": [
+        {
+            "name": "Brooks, David",
+            "orcid": "0000-0002-6758-2186",
+            "affiliation": "Auckland Bioengineering Institute",
+            "role": "Creator",
+            "contact": "Yes"
+        },
+        {
+            "name": "Nickerson, David",
+            "orcid": "0000-0003-4667-9779",
+            "affiliation": "Auckland Bioengineering Institute",
+            "role": "Creator",
+            "contact": "Yes"
+        },
+        {
+            "name": "Hunter, Peter",
+            "orcid": "0000-0001-9665-4145",
+            "affiliation": "Auckland Bioengineering Institute",
+            "role": "Principle Investigator"
+        }
+    ],
+    "funding": "OT3OD025349"
+}

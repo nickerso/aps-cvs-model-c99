@@ -1,39 +1,19 @@
 {
   "features": {
     "bvc/ID-0000001": {
-      "label": "Kidney",
-      "models": "cvs:functional.whole-body",
-      "hyperlinks": {
-        "flatmap": "FC:whole-body"
-      }
+      "class": "kidney"
     },
     "bvc/ID-0000003": {
-      "label": "Tissue exchange system",
-      "models": "cvs:functional.tissue",
-      "hyperlinks": {
-        "flatmap": "FC:tissue"
-      }
+      "label": "Tissue exchange system"
     },
     "bvc/ID-0000004": {
-      "label": "GI tract",
-      "models": "cvs:functional.whole-body",
-      "hyperlinks": {
-        "flatmap": "FC:whole-body"
-      }
+      "class": "digestive-tract"
     },
     "bvc/ID-0000006": {
-      "label": "Tissue exchange system",
-      "models": "cvs:functional.tissue",
-      "hyperlinks": {
-        "flatmap": "FC:tissue"
-      }
+      "label": "Tissue exchange system"
     },
     "bvc/ID-0000007": {
-      "label": "Circulatory system",
-      "models": "cvs:functional.whole-body",
-      "hyperlinks": {
-        "flatmap": "FC:whole-body"
-      }
+      "class": "circulatory-system"
     },
     "bvc/ID-0000009": {
       "name": "u_ac_H2O",
@@ -56,11 +36,7 @@
       "label": "Flow of water in proximal tubule of the kidney"
     },
     "bvc/ID-0000018": {
-      "label": "Tissue exchange system",
-      "models": "cvs:functional.tissue",
-      "hyperlinks": {
-        "flatmap": "FC:tissue"
-      }
+      "label": "Tissue exchange system"
     },
     "bvc/ID-0000019": {
       "name": "q_pt_H2O_,_u_pt_osmotic",
@@ -120,19 +96,11 @@
     },
     "bvc/ID-0000053": {
       "name": "q_gi.epi_Na+",
-      "label": "Amount of sodium in epithelial cell of gastro-intestinal tract",
-      "models": "cvs:functional.cell",
-      "hyperlinks": {
-        "flatmap": "FC:cellular"
-      }
+      "label": "Amount of sodium in epithelial cell of gastro-intestinal tract"
     },
     "bvc/ID-0000059": {
       "name": "q_pt.epi_Na+",
-      "label": "Amount of sodium in epithelial cell of proximal tubule of the kidney",
-      "models": "cvs:functional.cell",
-      "hyperlinks": {
-        "flatmap": "FC:cellular"
-      }
+      "label": "Amount of sodium in epithelial cell of proximal tubule of the kidney"
     },
     "bvc/ID-0000064": {
       "name": "v_gi.epi_Na+",
