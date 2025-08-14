@@ -16,8 +16,8 @@
       "class": "circulatory-system"
     },
     "bvc/ID-0000009": {
-      "name": "u_ac_H2O",
-      "label": "Chemical potential of water in arterial circulation"
+      "name": "q_ac_H2O",
+      "label": "Amount of water in arterial circulation"
     },
     "bvc/ID-0000010": {
       "name": "q_vc_H2O_,_u_vc_osmotic",
@@ -63,8 +63,8 @@
       "label": "Flow of water in gastro-intestinal tract"
     },
     "bvc/ID-0000032": {
-      "name": "u_gi_Na+",
-      "label": "Chemical potential of sodium in gastro-intestinal tract"
+      "name": "q_gi_Na+",
+      "label": "Amount of sodium in gastro-intestinal tract"
     },
     "bvc/ID-0000033": {
       "name": "v_in_Na+",
@@ -103,20 +103,20 @@
       "label": "Amount of sodium in epithelial cell of proximal tubule of the kidney"
     },
     "bvc/ID-0000064": {
-      "name": "v_gi.epi_Na+",
+      "name": "v_gi_Na+",
       "label": "Flow of sodium in epithelial cell of gastro-intestinal tract"
     },
     "bvc/ID-0000065": {
-      "name": "v_gi_NKE",
-      "label": "Flow of sodium through NKE ATPase in gastro-intestinal tract"
+      "name": "v_giEpi_NKE",
+      "label": "Flow of sodium through NKE ATPase in epithelial cell of gastro-intestinal tract"
     },
     "bvc/ID-0000066": {
-      "name": "v_pt.epi_Na+",
+      "name": "v_pt_Na+",
       "label": "Flow of sodium in epithelial cell of proximal tubule of the kidney"
     },
     "bvc/ID-0000067": {
-      "name": "v_pt_NKE",
-      "label": "Flow of sodium through NKE ATPase in proximal tubule of the kidney"
+      "name": "v_ptEpi_NKE",
+      "label": "Flow of sodium through NKE ATPase in epithelial cell of proximal tubule of the kidney"
     }
   }
 }
