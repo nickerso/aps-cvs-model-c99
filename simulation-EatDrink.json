@@ -1,0 +1,146 @@
+{
+    "input": [
+      {
+        "id": "water_intake",
+        "defaultValue": 10,
+        "maximumValue": 100,
+        "minimumValue": 0,
+        "name": "Rate of drinking (mL/s)"
+      },
+      {
+        "id": "drink_start",
+        "defaultValue": 10,
+        "maximumValue": 25,
+        "minimumValue": 0,
+        "name": "Time of drink (s)"
+      },
+      {
+        "id": "drink_duration",
+        "defaultValue": 10,
+        "maximumValue": 20,
+        "minimumValue": 1,
+        "name": "Duration of drink (s)"
+      },
+      {
+        "id": "Na_intake",
+        "defaultValue": 1,
+        "maximumValue": 30,
+        "minimumValue": 0,
+        "name": "Rate of sodium intake (mmol/s)"
+      },
+      {
+        "id": "Na_start",
+        "defaultValue": 10,
+        "maximumValue": 25,
+        "minimumValue": 0,
+        "name": "Time of eating (s)"
+      },
+      {
+        "id": "Na_duration",
+        "defaultValue": 10,
+        "maximumValue": 30,
+        "minimumValue": 1,
+        "name": "Duration of eating (s)"
+      }
+    ],
+    "output": {
+      "data": [
+        {
+          "id": "t",
+          "name": "main/t"
+        },
+        {
+          "id": "u_ac_W",
+          "name": "main/u_ac_W"
+        },
+        {
+          "id": "q_ac_W",
+          "name": "main/q_ac_W"
+        },
+        {
+          "id": "C_gi_Na",
+          "name": "main/C_gi_Na"
+        },
+        {
+          "id": "q_gi_W",
+          "name": "main/q_gi_W"
+        },
+        {
+          "id": "C_vc_Na",
+          "name": "main/C_vc_Na"
+        },
+        {
+          "id": "q_pt_W",
+          "name": "main/q_pt_W"
+        },
+        {
+          "id": "C_pt_Na",
+          "name": "main/C_pt_Na"
+        }
+      ],
+      "plots": [
+        {
+          "xAxisTitle": "Time (s)",
+          "xValue": "t",
+          "yAxisTitle": "Blood pressure (kPa)",
+          "yValue": "u_ac_W"
+        },
+        {
+          "xAxisTitle": "Time (s)",
+          "xValue": "t",
+          "yAxisTitle": "Blood Na+ concentration (mM)",
+          "yValue": "C_vc_Na"
+        },
+        {
+          "xAxisTitle": "Time (s)",
+          "xValue": "t",
+          "yAxisTitle": "Proximal tubule Na+ concentration (mM)",
+          "yValue": "C_pt_Na"
+        },
+        {
+          "xAxisTitle": "Time (s)",
+          "xValue": "t",
+          "yAxisTitle": "GI Na+ concentration (mM)",
+          "yValue": "C_gi_Na"
+        },
+        {
+          "xAxisTitle": "Time (s)",
+          "xValue": "t",
+          "yAxisTitle": "Arterial blood volume (L)",
+          "yValue": "q_ac_W"
+        },
+        {
+          "xAxisTitle": "Time (s)",
+          "xValue": "t",
+          "yAxisTitle": "GI water volume (L)",
+          "yValue": "q_gi_W"
+        }
+      ]
+    },
+    "parameters": [
+      {
+        "name": "main/water_intake",
+        "value": "water_intake / 1000"
+      },
+      {
+        "name": "main/water_intake_start",
+        "value": "drink_start"
+      },
+      {
+        "name": "main/water_intake_duration",
+        "value": "drink_duration"
+      },
+      {
+        "name": "main/Na_intake",
+        "value": "Na_intake / 1000"
+      },
+      {
+        "name": "main/Na_intake_start",
+        "value": "Na_start"
+      },
+      {
+        "name": "main/Na_intake_duration",
+        "value": "Na_duration"
+      }
+    ]
+  }

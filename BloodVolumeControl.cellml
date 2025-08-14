@@ -89,16 +89,18 @@
         <variable name="C_giEpi_Na" units="mM"/>
         <variable name="C_ptEpi_Na" units="mM"/>
         <variable initial_value="0.1" name="v_lv_W" units="L_per_s"/>
-        <variable initial_value="0" name="v_in_W" units="L_per_s"/>
-        <variable initial_value="0" name="v_out1_W" units="L_per_s"/>
-        <variable initial_value="0" name="v_out2_W" units="L_per_s"/>
+        <variable initial_value="0" name="v_in_W_base" units="L_per_s"/>
+        <variable name="v_in_W" units="L_per_s"/>
+        <variable name="v_out1_W" units="L_per_s"/>
+        <variable name="v_out2_W" units="L_per_s"/>
         <variable name="v_gl_W" units="L_per_s"/>
         <variable name="v_gi_W" units="L_per_s"/>
         <variable name="v_pt_W" units="L_per_s"/>
         <variable name="v_cc_W" units="L_per_s"/>
-        <variable initial_value="1.16e-6" name="v_in_Na" units="mol_per_s"/>
-        <variable initial_value="0" name="v_out1_Na" units="mol_per_s"/>
-        <variable initial_value="1.16e-6" name="v_out2_Na" units="mol_per_s"/>
+        <variable initial_value="1.16e-06" name="v_in_Na_base" units="mol_per_s"/>
+        <variable name="v_in_Na" units="mol_per_s"/>
+        <variable name="v_out1_Na" units="mol_per_s"/>
+        <variable name="v_out2_Na" units="mol_per_s"/>
         <variable name="v_gl_Na" units="mol_per_s"/>
         <variable name="v_gi_Na" units="mol_per_s"/>
         <variable name="v_pt_Na" units="mol_per_s"/>
@@ -132,8 +134,128 @@
         <variable initial_value="1.5" name="L_ac_W" units="litre"/>
         <variable initial_value="2.5" name="L_vc_W" units="litre"/>
         <variable initial_value="1" name="L_pt_W" units="litre"/>
-        <!-- ODEs for qtys of water & sodium in the 4 compartments-->
+        <!-- Water input and output BCs-->
+        <variable initial_value="0.01" name="water_intake" units="L_per_s"/>
+        <variable initial_value="10" name="water_intake_start" units="second"/>
+        <variable initial_value="5" name="water_intake_duration" units="second"/>
+        <!-- kidney excretion = 94% of intake-->
+        <variable initial_value="0.94" name="water_kidney_excretion" units="dimensionless"/>
+        <!-- GI excretion = 6% of intake-->
+        <variable initial_value="0.06" name="water_gi_excretion" units="dimensionless"/>
+        <!-- Sodium input and output BCs-->
+        <variable initial_value="0.001" name="Na_intake" units="mol_per_s"/>
+        <variable initial_value="10" name="Na_intake_start" units="second"/>
+        <variable initial_value="10" name="Na_intake_duration" units="second"/>
+        <!-- gi excretion = 7% of intake-->
+        <variable initial_value="0.07" name="Na_gi_excretion" units="dimensionless"/>
+        <!-- kidney excretion = 93% of intake-->
+        <variable initial_value="0.93" name="Na_kidney_excretion" units="dimensionless"/>
+        <!-- Drink of water-->
         <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+                <eq/>
+                <ci>v_in_W</ci>
+                <piecewise>
+                    <piece>
+                        <ci>water_intake</ci>
+                        <apply>
+                            <and/>
+                            <apply>
+                                <gt/>
+                                <ci>t</ci>
+                                <ci>water_intake_start</ci>
+                            </apply>
+                            <apply>
+                                <lt/>
+                                <ci>t</ci>
+                                <apply>
+                                    <plus/>
+                                    <ci>water_intake_start</ci>
+                                    <ci>water_intake_duration</ci>
+                                </apply>
+                            </apply>
+                        </apply>
+                    </piece>
+                    <otherwise>
+                        <cn cellml:units="L_per_s">0</cn>
+                    </otherwise>
+                </piecewise>
+            </apply>
+            <!-- Water flow excreted in faeces-->
+            <apply>
+                <eq/>
+                <ci>v_out1_W</ci>
+                <apply>
+                    <times/>
+                    <ci>water_gi_excretion</ci>
+                    <ci>v_in_W_base</ci>
+                </apply>
+            </apply>
+            <!-- Water flow excreted in urine-->
+            <apply>
+                <eq/>
+                <ci>v_out2_W</ci>
+                <apply>
+                    <times/>
+                    <ci>water_kidney_excretion</ci>
+                    <ci>v_in_W_base</ci>
+                </apply>
+            </apply>
+            <!-- Eat some sodium-->
+            <apply>
+                <eq/>
+                <ci>v_in_Na</ci>
+                <piecewise>
+                    <piece>
+                        <apply>
+                            <plus/>
+                            <ci>v_in_Na_base</ci>
+                            <ci>Na_intake</ci>
+                        </apply>
+                        <apply>
+                            <and/>
+                            <apply>
+                                <gt/>
+                                <ci>t</ci>
+                                <ci>Na_intake_start</ci>
+                            </apply>
+                            <apply>
+                                <lt/>
+                                <ci>t</ci>
+                                <apply>
+                                    <plus/>
+                                    <ci>Na_intake_start</ci>
+                                    <ci>Na_intake_duration</ci>
+                                </apply>
+                            </apply>
+                        </apply>
+                    </piece>
+                    <otherwise>
+                        <ci>v_in_Na_base</ci>
+                    </otherwise>
+                </piecewise>
+            </apply>
+            <!-- Na excreted in faeces-->
+            <apply>
+                <eq/>
+                <ci>v_out1_Na</ci>
+                <apply>
+                    <times/>
+                    <ci>Na_gi_excretion</ci>
+                    <ci>v_in_Na_base</ci>
+                </apply>
+            </apply>
+            <!-- Water flow excreted in urine-->
+            <apply>
+                <eq/>
+                <ci>v_out2_Na</ci>
+                <apply>
+                    <times/>
+                    <ci>Na_kidney_excretion</ci>
+                    <ci>v_in_Na_base</ci>
+                </apply>
+            </apply>
+            <!-- ODEs for qtys of water & sodium in the 4 compartments-->
             <apply>
                 <eq/>
                 <apply>
