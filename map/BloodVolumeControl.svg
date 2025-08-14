@@ -71,7 +71,7 @@
         <text font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="700" font-size="16" transform="matrix(1 0 0 0.999986 1291.52 322)">Kidney</text>
         <text font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="700" font-size="16" transform="matrix(1 0 0 0.999986 1034.6 560)">GI tract</text>
         <path d="M1120.5 437.761C1120.5 432.091 1125.1 427.494 1130.77 427.494L1145.23 427.494C1150.9 427.494 1155.5 432.091 1155.5 437.761L1155.5 444.227C1155.5 449.897 1150.9 454.494 1145.23 454.494L1130.77 454.494C1125.1 454.494 1120.5 449.897 1120.5 444.227Z" stroke="#FF0000" stroke-width="1.3335" stroke-linejoin="round" stroke-miterlimit="10" fill="#FCC0D3" fill-rule="evenodd" id="ID-0000009"/>
-        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="13" transform="matrix(1 0 0 0.999986 1123.73 446)">𝑢</text>
+        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="13" transform="matrix(1 0 0 0.999986 1123.73 446)">𝑞</text>
         <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1131.4 450)">𝑎𝑐</text>
         <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1131.74 439)">𝐻</text>
         <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="8" transform="matrix(1 0 0 0.999986 1138.55 441)">2</text>
@@ -162,7 +162,7 @@
         <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="8" transform="matrix(1 0 0 0.999986 1139.11 497)">2</text>
         <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1144.35 495)">𝑂</text>
         <path d="M1172.5 657.378C1172.5 651.917 1176.93 647.491 1182.39 647.491L1197.61 647.491C1203.07 647.491 1207.5 651.917 1207.5 657.378L1207.5 663.604C1207.5 669.064 1203.07 673.491 1197.61 673.491L1182.39 673.491C1176.93 673.491 1172.5 669.064 1172.5 663.604Z" stroke="#FF0000" stroke-width="1.3335" stroke-linejoin="round" stroke-miterlimit="10" fill="#FFE696" fill-rule="evenodd" id="ID-0000032"/>
-        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="13" transform="matrix(1 0 0 0.999986 1175.31 666)">𝑢</text>
+        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="13" transform="matrix(1 0 0 0.999986 1175.31 666)">𝑞</text>
         <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1182.41 669)">𝑔𝑖</text>
         <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1183.32 660)">𝑁𝑎</text>
         <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="8" transform="matrix(1 0 0 0.999986 1196.89 657)">+</text>
@@ -243,27 +243,27 @@
         <path d="M1382 239.497C1382 236.459 1383.79 233.997 1386 233.997 1388.21 233.997 1390 236.459 1390 239.497 1390 242.534 1388.21 244.997 1386 244.997 1383.79 244.997 1382 242.534 1382 239.497Z" fill="#8ED973" fill-rule="evenodd" id="ID-0000063"/>
         <text font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400" font-size="11" transform="matrix(1 0 0 0.999986 1383.31 243)">3</text>
         <path d="M1171 579.178C1171 576.314 1173.32 573.992 1176.19 573.992L1203.81 573.992C1206.68 573.992 1209 576.314 1209 579.178L1209 591.806C1209 594.67 1206.68 596.992 1203.81 596.992L1176.19 596.992C1173.32 596.992 1171 594.67 1171 591.806Z" stroke="#042433" stroke-width="2.00025" stroke-miterlimit="8" fill="url(#fill21)" fill-rule="evenodd" id="ID-0000064"/>
-        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="13" transform="matrix(1 0 0 0.999986 1172.78 591)">𝑣</text>
-        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1179.4 594)">𝑔𝑖</text>
-        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1189.57 594)">.</text>
-        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1191.57 594)">𝑒𝑝𝑖</text>
-        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1180.9 586)">𝑁𝑎</text>
-        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="8" transform="matrix(1 0 0 0.999986 1194.47 582)">+</text>
+        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="13" transform="matrix(1 0 0 0.999986 1175.78 590)">𝑣</text>
+        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1182.4 593)">𝑔𝑖</text>
+        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1183.9 585)">𝑁𝑎</text>
+        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="8" transform="matrix(1 0 0 0.999986 1197.47 581)">+</text>
         <path d="M1171 491.18C1171 488.315 1173.32 485.993 1176.19 485.993L1203.81 485.993C1206.68 485.993 1209 488.315 1209 491.18L1209 503.807C1209 506.671 1206.68 508.993 1203.81 508.993L1176.19 508.993C1173.32 508.993 1171 506.671 1171 503.807Z" stroke="#042433" stroke-width="2.00025" stroke-miterlimit="8" fill="url(#fill22)" fill-rule="evenodd" id="ID-0000065"/>
-        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="13" transform="matrix(1 0 0 0.999986 1175.26 502)">𝑣</text>
-        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1181.88 506)">𝑔𝑖</text>
-        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1183.38 497)">𝑁𝐾𝐸</text>
+        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="13" transform="matrix(1 0 0 0.999986 1172.30 502)">𝑣</text>
+        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1178.92 506)">𝑔𝑖</text>
+        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1189.68 506)">.</text>
+        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1191.68 506)">𝑒𝑝𝑖</text>
+        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1180.42 497)">𝑁𝐾𝐸</text>
         <path d="M1367 342.182C1367 339.317 1369.32 336.995 1372.19 336.995L1399.81 336.995C1402.68 336.995 1405 339.317 1405 342.182L1405 354.809C1405 357.673 1402.68 359.995 1399.81 359.995L1372.19 359.995C1369.32 359.995 1367 357.673 1367 354.809Z" stroke="#042433" stroke-width="2.00025" stroke-miterlimit="8" fill="url(#fill23)" fill-rule="evenodd" id="ID-0000066"/>
-        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="13" transform="matrix(1 0 0 0.999986 1368.16 354)">𝑣</text>
-        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1375.36 357)">𝑝𝑡</text>
-        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1386.12 357)">.</text>
-        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1388.12 357)">𝑒𝑝𝑖</text>
-        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1376.28 349)">𝑁𝑎</text>
-        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="8" transform="matrix(1 0 0 0.999986 1389.85 345)">+</text>
+        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="13" transform="matrix(1 0 0 0.999986 1371.16 353)">𝑣</text>
+        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1378.36 356)">𝑝𝑡</text>
+        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1379.28 348)">𝑁𝑎</text>
+        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="8" transform="matrix(1 0 0 0.999986 1392.85 344)">+</text>
         <path d="M1367 253.957C1367 251.218 1369.22 248.997 1371.96 248.997L1400.04 248.997C1402.78 248.997 1405 251.218 1405 253.957L1405 266.036C1405 268.775 1402.78 270.996 1400.04 270.996L1371.96 270.996C1369.22 270.996 1367 268.775 1367 266.036Z" stroke="#042433" stroke-width="2.00025" stroke-miterlimit="8" fill="url(#fill24)" fill-rule="evenodd" id="ID-0000067"/>
-        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="13" transform="matrix(1 0 0 0.999986 1371.22 264)">𝑣</text>
-        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1378.42 267)">𝑝𝑡</text>
-        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1379.34 259)">𝑁𝐾𝐸</text>
+        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="13" transform="matrix(1 0 0 0.999986 1368.16 264)">𝑣</text>
+        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1375.36 267)">𝑝𝑡</text>
+        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1386.12 267)">.</text>
+        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1388.12 267)">𝑒𝑝𝑖</text>
+        <text font-family="Cambria Math,Cambria Math_MSFontService,sans-serif" font-weight="400" font-size="9" transform="matrix(1 0 0 0.999986 1376.28 259)">𝑁𝐾𝐸</text>
         <path d="M1400.5 267.024 1403.08 262.996 1402.83 266.694 1405.76 266.091 1404.6 268.076 1407.65 268.647 1405.23 270.271 1408 272.225 1404.69 271.984 1405.6 275.562 1402.74 273.036 1402.2 276.702 1400.31 273.368 1398.89 277.996 1398.36 273.848 1396.31 275.23 1396.94 272.675 1393.09 273.126 1395.58 271.173 1393 268.979 1396.21 268.286 1393.26 264.59 1398.08 267.385 1398.8 264.59Z" fill="#FF66FF" fill-rule="evenodd" id="ID-0000068"/>
         <path d="M1203.5 504.289 1206.08 499.993 1205.83 503.938 1208.76 503.295 1207.6 505.412 1210.65 506.02 1208.23 507.752 1211 509.837 1207.69 509.58 1208.6 513.397 1205.74 510.702 1205.2 514.613 1203.31 511.056 1201.89 515.993 1201.36 511.569 1199.31 513.043 1199.94 510.317 1196.09 510.798 1198.58 508.715 1196 506.375 1199.21 505.635 1196.26 501.693 1201.08 504.675 1201.8 501.693Z" fill="#FF66FF" fill-rule="evenodd" id="ID-0000069"/>
         <path d="M1089.5 449.022 1092.08 444.994 1091.83 448.692 1094.76 448.089 1093.6 450.074 1096.65 450.644 1094.23 452.268 1097 454.223 1093.69 453.981 1094.6 457.56 1091.74 455.033 1091.2 458.7 1089.31 455.365 1087.89 459.994 1087.36 455.846 1085.31 457.228 1085.94 454.672 1082.09 455.124 1084.58 453.171 1082 450.976 1085.21 450.283 1082.26 446.588 1087.08 449.383 1087.8 446.588Z" fill="#FF66FF" fill-rule="evenodd" id="ID-0000070"/>
