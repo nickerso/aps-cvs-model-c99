@@ -1,19 +1,22 @@
 {
   "features": {
     "bvc/ID-0000001": {
-      "class": "kidney"
+      "model": "UBERON:0002113",
+      "name": "Kidney - name is unused for anything, just using for human readable text"
     },
     "bvc/ID-0000003": {
       "label": "Tissue exchange system"
     },
     "bvc/ID-0000004": {
-      "class": "digestive-tract"
+      "model": "UBERON:0001555",
+      "name": "Digestive tract"
     },
     "bvc/ID-0000006": {
       "label": "Tissue exchange system"
     },
     "bvc/ID-0000007": {
-      "class": "circulatory-system"
+      "term": "UBERON:0001009",
+      "name": "Circulatory system"
     },
     "bvc/ID-0000009": {
       "name": "q_ac_H2O",

@@ -1,7 +1,7 @@
 {
     "id": "FC:blood-volume-control",
     "models": "FC:blood-volume-control",
-    "kind": "functional control",
+    "kind": "functional",
     "description": "BloodVolumeControl.description.json",
     "properties": "BloodVolumeControl.properties.json",
     "sources": [
@@ -10,6 +10,5 @@
             "href": "BloodVolumeControl.svg",
             "kind": "base"
         }
-    ],
-    "anatomicalMap": "anatomical_map.json"
+    ]
 }
