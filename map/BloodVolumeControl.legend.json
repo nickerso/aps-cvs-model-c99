@@ -1,0 +1,20 @@
+[
+    {
+      "prompt": "Storage of some substance",
+      "style": "rounded-square",
+      "colour": "white",
+      "border": "#fb000d"
+    },
+    {
+      "prompt": "Flow of some substance",
+      "style": "rounded-square",
+      "colour": "white",
+      "border": "#16a541"
+    },
+    {
+      "prompt": "Flow across a cell membrane",
+      "style": "rounded-square",
+      "colour": "white",
+      "border": "#091c28"
+    }
+]

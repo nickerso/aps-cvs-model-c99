@@ -4,6 +4,7 @@
     "kind": "functional",
     "description": "BloodVolumeControl.description.json",
     "properties": "BloodVolumeControl.properties.json",
+    "legend": "BloodVolumeControl.legend.json",
     "sources": [
         {
             "id": "bvc",
