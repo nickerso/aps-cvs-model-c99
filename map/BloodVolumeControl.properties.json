@@ -1,14 +1,14 @@
 {
   "features": {
     "bvc/ID-0000001": {
-      "model": "UBERON:0002113",
+      "models": "UBERON:0002113",
       "comment": "Kidney - name is unused for anything, just using for human readable text"
     },
     "bvc/ID-0000003": {
       "label": "Tissue exchange system"
     },
     "bvc/ID-0000004": {
-      "model": "UBERON:0001555",
+      "models": "UBERON:0001555",
       "comment": "Digestive tract"
     },
     "bvc/ID-0000006": {
