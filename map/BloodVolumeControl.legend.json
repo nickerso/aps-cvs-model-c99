@@ -1,6 +1,6 @@
 [
     {
-      "prompt": "Storage of some substance",
+      "prompt": "Quantity and potential of some substance",
       "style": "rounded-square",
       "colour": "white",
       "border": "#fb000d"
@@ -12,9 +12,19 @@
       "border": "#16a541"
     },
     {
-      "prompt": "Flow across a cell membrane",
+      "prompt": "Flow of a substance via a chemical reaction",
       "style": "rounded-square",
       "colour": "white",
       "border": "#091c28"
+    },
+    {
+      "prompt": "Flow of water",
+      "style": "line",
+      "colour": "#337abc"
+    },
+    {
+      "prompt": "Flow of sodium ions",
+      "style": "line",
+      "colour": "#2f6d1a"
     }
 ]
