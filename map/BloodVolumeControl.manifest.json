@@ -5,6 +5,7 @@
     "description": "BloodVolumeControl.description.json",
     "properties": "BloodVolumeControl.properties.json",
     "legend": "BloodVolumeControl.legend.json",
+    "sckan-version": "sckan-2024-09-21",
     "sources": [
         {
             "id": "bvc",
