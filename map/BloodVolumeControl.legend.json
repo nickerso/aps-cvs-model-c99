@@ -18,11 +18,6 @@
       "border": "#042433"
     },
     {
-      "prompt": "stoichiometry",
-      "style": "circle",
-      "colour": "#8ED973"
-    },
-    {
       "prompt": "Flow of water",
       "style": "line",
       "colour": "#0070C0"
@@ -31,6 +26,11 @@
       "prompt": "Flow of sodium ions",
       "style": "line",
       "colour": "#3B7D23"
+    },
+    {
+      "prompt": "Stoichiometry",
+      "style": "circle",
+      "colour": "#8ED973"
     },
     {
       "prompt": "Organ system",
