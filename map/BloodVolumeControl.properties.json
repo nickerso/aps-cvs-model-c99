@@ -15,7 +15,7 @@
       "label": "Tissue exchange system"
     },
     "bvc/ID-0000007": {
-      "term": "UBERON:0001009",
+      "models": "UBERON:0001009",
       "comment": "Circulatory system"
     },
     "bvc/ID-0000009": {
