@@ -20,11 +20,11 @@
     },
     "bvc/ID-0000009": {
       "name": "q_ac_H2O",
-      "label": "Amount of water in arterial circulation"
+      "label": "Amount and potential of water in arterial circulation"
     },
     "bvc/ID-0000010": {
       "name": "q_vc_H2O_,_u_vc_osmotic",
-      "label": "Amount of water in venous circulation\nOsmotic pressure in venous circulation"
+      "label": "Amount and potential of water in venous circulation\nOsmotic pressure in venous circulation"
     },
     "bvc/ID-0000011": {
       "name": "v_lv_H2O",
@@ -43,7 +43,7 @@
     },
     "bvc/ID-0000019": {
       "name": "q_pt_H2O_,_u_pt_osmotic",
-      "label": "Amount of water in proximal tubule of the kidney\nOsmotic pressure in proximal tubule of the kidney"
+      "label": "Amount and potential of water in proximal tubule of the kidney\nOsmotic pressure in proximal tubule of the kidney"
     },
     "bvc/ID-0000021": {
       "name": "v_gl_H2O",
@@ -55,7 +55,7 @@
     },
     "bvc/ID-0000028": {
       "name": "q_gi_H2O_,_u_gi_osmotic",
-      "label": "Amount of water in gastro-intestinal tract\nOsmotic pressure in gastro-intestinal tract"
+      "label": "Amount and potential of water in gastro-intestinal tract\nOsmotic pressure in gastro-intestinal tract"
     },
     "bvc/ID-0000029": {
       "name": "v_in_H2O",
@@ -67,31 +67,31 @@
     },
     "bvc/ID-0000032": {
       "name": "q_gi_Na+",
-      "label": "Amount of sodium in gastro-intestinal tract"
+      "label": "Amount and potential of sodium ions in gastro-intestinal tract"
     },
     "bvc/ID-0000033": {
       "name": "v_in_Na+",
-      "label": "Flow of sodium into gastro-intestinal tract"
+      "label": "Flow of sodium ions into gastro-intestinal tract"
     },
     "bvc/ID-0000036": {
       "name": "v_out1_Na+",
-      "label": "Flow of sodium out of gastro-intestinal tract"
+      "label": "Flow of sodium ions out of gastro-intestinal tract"
     },
     "bvc/ID-0000038": {
       "name": "q_vc_Na+",
-      "label": "Amount of sodium in venous circulation"
+      "label": "Amount and potential of sodium ions in venous circulation"
     },
     "bvc/ID-0000040": {
       "name": "q_pt_Na+",
-      "label": "Amount of sodium in proximal tubule of the kidney"
+      "label": "Amount and potential of sodium ions in proximal tubule of the kidney"
     },
     "bvc/ID-0000041": {
       "name": "v_out2_Na+",
-      "label": "Flow of sodium out of kidney"
+      "label": "Flow of sodium ions out of kidney"
     },
     "bvc/ID-0000043": {
       "name": "v_gl_Na+",
-      "label": "Flow of sodium in glomeruli of the kidney"
+      "label": "Flow of sodium ions in glomeruli of the kidney"
     },
     "bvc/ID-0000050": {
       "name": "v_out1_H2O",
@@ -99,27 +99,27 @@
     },
     "bvc/ID-0000053": {
       "name": "q_gi.epi_Na+",
-      "label": "Amount of sodium in epithelial cell of gastro-intestinal tract"
+      "label": "Amount and potential of sodium ions in epithelial cell of gastro-intestinal tract"
     },
     "bvc/ID-0000059": {
       "name": "q_pt.epi_Na+",
-      "label": "Amount of sodium in epithelial cell of proximal tubule of the kidney"
+      "label": "Amount and potential of sodium ions in epithelial cell of proximal tubule of the kidney"
     },
     "bvc/ID-0000064": {
       "name": "v_gi_Na+",
-      "label": "Flow of sodium in epithelial cell of gastro-intestinal tract"
+      "label": "Flow of sodium ions in epithelial cell of gastro-intestinal tract"
     },
     "bvc/ID-0000065": {
       "name": "v_giEpi_NKE",
-      "label": "Flow of sodium through NKE ATPase in epithelial cell of gastro-intestinal tract"
+      "label": "Flow of sodium ions through NKE ATPase in epithelial cell of gastro-intestinal tract"
     },
     "bvc/ID-0000066": {
       "name": "v_pt_Na+",
-      "label": "Flow of sodium in epithelial cell of proximal tubule of the kidney"
+      "label": "Flow of sodium ions in epithelial cell of proximal tubule of the kidney"
     },
     "bvc/ID-0000067": {
       "name": "v_ptEpi_NKE",
-      "label": "Flow of sodium through NKE ATPase in epithelial cell of proximal tubule of the kidney"
+      "label": "Flow of sodium ions through NKE ATPase in epithelial cell of proximal tubule of the kidney"
     }
   }
 }
