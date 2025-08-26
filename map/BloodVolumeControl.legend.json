@@ -28,6 +28,12 @@
       "colour": "#3B7D23"
     },
     {
+      "prompt": "Signalling path",
+      "style": "line",
+      "colour": "#3B7D23",
+      "dashed": "true"
+    },
+    {
       "prompt": "Stoichiometry",
       "style": "circle",
       "colour": "#8ED973"
