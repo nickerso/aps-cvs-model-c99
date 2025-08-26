@@ -3,28 +3,28 @@
       "prompt": "Quantity and potential of some substance",
       "style": "rounded-square",
       "colour": "white",
-      "border": "#fb000d"
+      "border": "#FF0000"
     },
     {
       "prompt": "Flow of some substance",
       "style": "rounded-square",
       "colour": "white",
-      "border": "#16a541"
+      "border": "#00B050"
     },
     {
       "prompt": "Flow of a substance via a chemical reaction",
       "style": "rounded-square",
       "colour": "white",
-      "border": "#091c28"
+      "border": "#042433"
     },
     {
       "prompt": "Flow of water",
       "style": "line",
-      "colour": "#337abc"
+      "colour": "#0070C0"
     },
     {
       "prompt": "Flow of sodium ions",
       "style": "line",
-      "colour": "#2f6d1a"
+      "colour": "#3B7D23"
     }
 ]
