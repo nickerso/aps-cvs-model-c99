@@ -1,12 +1,12 @@
 Blood volume control model
 ==========================
 
-A simple model of the control of blood volume by sodium. Shown below, the three compartments (GI tract, kidney, and circulation system) are shown with grey backgrounds. The blue-background rectangular boxes indicate the 6-layer FTUs (Functional Tissue Units) that encompass exchange of substances (in this case just water and sodium) between the epithelial compartments and blood. The 0:nodes and 1:nodes provide the link to protein mechanisms in subcellular compartments. The variables shown in red are specified boundary conditions.
+A simple model of the control of blood volume by sodium, as shown in the diagram below. This is primarily used as the source for producing an FC map dataset for the SPARC Portal. The *map* folder contains the actual source for the flatmap associated with this FC map. The *create_omex_files.py* script can be used to create the COMBINE archives for each of the simulation experiments associated with this FC map.
 
-.. figure::  BloodVolumeControl.jpg
-   :width: 50%
+.. figure::  map/BloodVolumeControl.png
+   :width: 70%
    :align: center
-   :alt: Schematic and bond graph of the model
+   :alt: Schematic model diagram.
 
-   The figure depicts the components of the renal circulation system.
+   The figure depicts the components of the model.
 
