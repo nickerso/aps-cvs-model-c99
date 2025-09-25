@@ -1,5 +1,6 @@
 {
     "id": "FC:blood-volume-control",
+    "name": "Simple blood volume control",
     "models": "FC:blood-volume-control",
     "kind": "functional",
     "description": "BloodVolumeControl.description.json",
