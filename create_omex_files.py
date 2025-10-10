@@ -33,14 +33,14 @@ if __name__ == "__main__":
     baseline_protocol_files = [
         ("BloodVolumeControl.cellml", None),
         ("BloodVolumeControl.sedml", None),
-        ("manifest.xml", None),
+        ("default-simulation-experiment.manifest.xml", "manifest.xml"),
         ("simulation.json", None)
     ]
 
     eat_drink_protocol_files = [
         ("BloodVolumeControl.cellml", None),
         ("EatDrink.sedml", None),
-        ("manifest-EatDrink.xml", "manifest.xml"),
+        ("EatDrink-simulation-experiment.manifest.xml", "manifest.xml"),
         ("simulation-EatDrink.json", "simulation.json")
     ]
 
